@@ -1,0 +1,45 @@
+/* @font-face {font-family: "NUSKINBold";font-style: normal;font-weight: normal; src: url("font/NUSKINBold.eot"); src: url("font/NUSKINBold.eot?#iefix") format("embedded-opentype"), url("font/NUSKINBold.woff") format("woff"), url("font/NUSKINBold.ttf") format("truetype");}
+@font-face {font-family: "NUSKINBook";font-style: normal;font-weight: normal; src: url("font/NUSKINBook.eot"); src: url("font/NUSKINBook.eot?#iefix") format("embedded-opentype"), url("font/NUSKINBook.woff") format("woff"), url("font/NUSKINBook.ttf") format("truetype");}
+@font-face {font-family: "NUSKINLight";font-style: normal;font-weight: normal; src: url("font/NUSKINLight.eot"); src: url("font/NUSKINLight.eot?#iefix") format("embedded-opentype"), url("font/NUSKINLight.woff") format("woff"), url("font/NUSKINLight.ttf") format("truetype");}
+@font-face {font-family: "YoonGothic740";font-style: normal;font-weight: normal; src: url("font/YoonGothic740.eot"); src: url("font/YoonGothic740.eot?#iefix") format("embedded-opentype"), url("font/YoonGothic740.woff") format("woff"), url("font/YoonGothic740.ttf") format("truetype");} */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css); 
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+@font-face {font-family: "KoPubDotumPMA";font-style: normal;font-weight: normal; 
+	src: url("font/KoPubDotumPMA.eot"); 
+	src: url("font/KoPubDotumPMA.eot?#iefix") format("embedded-opentype"), url("font/KoPubDotumPMA.ttf") format("truetype");
+}
+@font-face {font-family: "KoPubDotumPBA";font-style: normal;font-weight: normal; 
+	src: url("font/KoPubDotumPBA.eot"); 
+	src: url("font/KoPubDotumPBA.eot?#iefix") format("embedded-opentype"), url("font/KoPubDotumPBA.ttf") format("truetype");
+}
+@font-face {font-family: "KoPubDotumPLA";font-style: normal;font-weight: normal; 
+	src: url("font/KoPubDotumPLA.eot"); 
+	src: url("font/KoPubDotumPLA.eot?#iefix") format("embedded-opentype"), url("font/KoPubDotumPLA.ttf") format("truetype");
+}
+@font-face {font-family: "RobotoCondensed-Light";font-style: normal;font-weight: normal; 
+	src: url("font/RobotoCondensed-Light.eot"); 
+	src: url("font/RobotoCondensed-Light.eot?#iefix") format("embedded-opentype"), url("font/RobotoCondensed-Light.ttf") format("truetype");
+}
+@font-face {font-family: "RobotoCondensed-Bold";font-style: normal;font-weight: normal; 
+	src: url("font/RobotoCondensed-Bold.eot"); 
+	src: url("font/RobotoCondensed-Bold.eot?#iefix") format("embedded-opentype"), url("font/RobotoCondensed-Bold.ttf") format("truetype");
+}
+@font-face {font-family: "SSD_Bold";font-style: normal;font-weight: normal; 
+	src: url("font/SSD_Bold.eot"); 
+	src: url("font/SSD_Bold.eot?#iefix") format("embedded-opentype"), url("font/SSD_Bold.ttf") format("truetype");
+}
+@font-face {font-family: "RobotoCondensed-Bold";font-style: normal;font-weight: normal; 
+	src: url("font/SSD_Light.eot"); 
+	src: url("font/SSD_Light.eot?#iefix") format("embedded-opentype"), url("font/SSD_Light.ttf") format("truetype");
+}
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css); 
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+h1, h2, h3, h4, h5, h6, p, a, table, th, td, div, button, label, b, input {
+font-family:"KoPubDotumPMA" !important;
+font-feature-settings: 'kern';
+-webkit-font-smoothing: antialiased;
+}
+
+/*h1, h2, h3, p, a, table, th, td, div, input {font-family:'Nanum Gothic' !important; }*/

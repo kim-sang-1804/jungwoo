@@ -1,0 +1,77 @@
+.logo {
+	height: 30px;
+	margin: 6rem 0 5rem;
+}
+.navbar-white {
+	border-color: #ddd;
+}
+.nav > li > a {
+	color: #111;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	text-decoration: none;
+	background-color: #fff;
+	color: #CFA49F;
+}
+
+.nav > li > a.active {
+	color: #CFA49F;
+}
+.nav > li > a:after{
+	content: "";
+	height: 50%;
+	top: 25%;
+	background: #000;
+	right: 0;
+	width: 2px;
+}
+.nav > li > a:before {
+	content: " ";
+	position: absolute;
+	height: 20%;
+	top: 40%;
+	right: 0;
+	border: .5px solid #999;
+}
+.nav > li:last-child > a:before {
+	display: none;
+}
+.navbar-toggle {
+	background-image: none;
+	border: 1px solid #c8c8c8;
+}
+.navbar-toggle .icon-bar {
+	background: #c8c8c8;
+}
+.logo_m{
+	display: none;
+}
+@media (max-width: 768px){
+	.navbar-collapse.collapse.in{
+		border-top: 1px solid #ddd;
+	}
+	.navbar-collapse.collapsing{
+		border-top: 1px solid #ddd;
+	}
+	.nav > li > a:before{
+		display: none;
+	}
+	.nav-justified > li > a {
+		text-align: left;
+	}
+	.logo_m{
+		display: block;
+		height: 40px;
+		position: absolute;
+		left: 15px;
+		top: 5px;
+	}
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 3;
+	/*background: #fff;*/
+	/*border-bottom: 1px solid #ddd;*/
+}
